@@ -1,0 +1,67 @@
+{
+    "Metro station": null,
+    "Minutes to metro": {
+        "mean": 12.072653103377053,
+        "median": 12.0
+    },
+    "Number of rooms": {
+        "mean": 1.7905607766188165,
+        "median": 2.0
+    },
+    "Area": {
+        "mean": 54.783196839822374,
+        "median": 49.0
+    },
+    "Living area": {
+        "mean": 30.3845399153155,
+        "median": 27.1
+    },
+    "Kitchen area": {
+        "mean": 10.780124961272332,
+        "median": 10.2
+    },
+    "Floor": {
+        "mean": 8.883248993080656,
+        "median": 8.0
+    },
+    "Number of floors": {
+        "mean": 16.023236600227204,
+        "median": 16.0
+    },
+    "Apartment_type_Digit": {
+        "mean": 0.4775895900030982,
+        "median": 0.0
+    },
+    "Region_Digit": {
+        "mean": 0.6709697407828152,
+        "median": 1.0
+    },
+    "Renovation_N_Cosmetic": {
+        "mean": 0.6368377568935247,
+        "median": 1.0
+    },
+    "Renovation_N_Designer": {
+        "mean": 0.08137973768460188,
+        "median": 0.0
+    },
+    "Renovation_N_European-style renovation": {
+        "mean": 0.1626562015904162,
+        "median": 0.0
+    },
+    "Renovation_N_Without renovation": {
+        "mean": 0.1191263038314572,
+        "median": 0.0
+    },
+    "Living_share": {
+        "mean": 0.5541780395533958,
+        "median": 0.5503211991434689
+    },
+    "Kitchen_share": {
+        "mean": 0.22403419077351763,
+        "median": 0.20444174094550727
+    },
+    "Is_first_floor": {
+        "mean": 0.06929670556645667,
+        "median": 0.0
+    }
+}

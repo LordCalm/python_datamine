@@ -1,0 +1,162 @@
+[
+    {
+        "rev": "workspace",
+        "name": null,
+        "data": {
+            "rev": "workspace",
+            "timestamp": null,
+            "params": {
+                "params.yaml": {
+                    "data": {
+                        "train": {
+                            "data_path": "./Data/Moscow_Housing_Price_FILTERED.csv",
+                            "features": [],
+                            "hidden_layers": [
+                                256,
+                                128,
+                                64
+                            ],
+                            "epochs": 2000,
+                            "learning_rate": 0.01,
+                            "valid_size": 0.3,
+                            "seed": 8
+                        }
+                    }
+                },
+                "dvc_experiments\\params.yaml": {
+                    "data": {
+                        "data_path": "./Data/Moscow_Housing_Price_FILTERED.csv",
+                        "features": "[]",
+                        "hidden_layers": "[256, 128, 64]",
+                        "epochs": 2000,
+                        "learning_rate": 0.01,
+                        "valid_size": 0.3,
+                        "seed": 8
+                    }
+                }
+            },
+            "metrics": {
+                "dvc_experiments\\metrics.json": {
+                    "data": {
+                        "train": {
+                            "loss": 0.025209719315171242,
+                            "mean_squared_error": 0.0028101198840886354
+                        },
+                        "eval": {
+                            "loss": 0.02618173323571682,
+                            "mean_squared_error": 0.003803008934482932
+                        },
+                        "step": 260,
+                        "final_val_loss": 0.02618173323571682,
+                        "R2_score": 0.8704615634437117
+                    }
+                }
+            },
+            "deps": {
+                "lr3\\training_3.py": {
+                    "hash": "8d6d9757ec3ddd1918a65a804dc7b656",
+                    "size": 8304,
+                    "nfiles": null
+                },
+                "Data\\Moscow_Housing_Price_FILTERED.csv": {
+                    "hash": "b7d3ca641a7ab6cefdef210c85463e76",
+                    "size": 2254412,
+                    "nfiles": null
+                }
+            },
+            "outs": {
+                "dvc_experiments\\model.h5": {
+                    "hash": "4eb103dba1736010fa72e0b2e4a2358d",
+                    "size": 588976,
+                    "nfiles": null,
+                    "use_cache": true,
+                    "is_data_source": true
+                }
+            },
+            "meta": {}
+        },
+        "error": null,
+        "experiments": null
+    },
+    {
+        "rev": "2f12a1fee7d22e2e3b47aeef54973de4b8d0bb1b",
+        "name": null,
+        "data": {
+            "rev": "2f12a1fee7d22e2e3b47aeef54973de4b8d0bb1b",
+            "timestamp": "2025-11-05T16:06:36",
+            "params": {
+                "params.yaml": {
+                    "data": {
+                        "train": {
+                            "data_path": "./Data/Moscow_Housing_Price_FILTERED.csv",
+                            "features": [],
+                            "hidden_layers": [
+                                1024,
+                                512,
+                                512,
+                                256,
+                                128
+                            ],
+                            "epochs": 2000,
+                            "learning_rate": 0.01,
+                            "valid_size": 0.3,
+                            "seed": 8
+                        }
+                    }
+                },
+                "dvc_experiments\\params.yaml": {
+                    "data": {
+                        "data_path": "./Data/Moscow_Housing_Price_FILTERED.csv",
+                        "features": "[]",
+                        "hidden_layers": "[1024, 512, 512, 256, 128]",
+                        "epochs": 2000,
+                        "learning_rate": 0.01,
+                        "valid_size": 0.3,
+                        "seed": 8
+                    }
+                }
+            },
+            "metrics": {
+                "dvc_experiments\\metrics.json": {
+                    "data": {
+                        "train": {
+                            "loss": 0.02657848782837391,
+                            "mean_squared_error": 0.0037257587537169456
+                        },
+                        "eval": {
+                            "loss": 0.026800284162163734,
+                            "mean_squared_error": 0.0038791277911514044
+                        },
+                        "step": 171,
+                        "final_val_loss": 0.026800284162163734,
+                        "R2_score": 0.8485207874176153
+                    }
+                }
+            },
+            "deps": {
+                "lr3\\training_3.py": {
+                    "hash": "8d6d9757ec3ddd1918a65a804dc7b656",
+                    "size": 8304,
+                    "nfiles": null
+                },
+                "Data\\Moscow_Housing_Price_FILTERED.csv": {
+                    "hash": "b7d3ca641a7ab6cefdef210c85463e76",
+                    "size": 2254412,
+                    "nfiles": null
+                }
+            },
+            "outs": {
+                "dvc_experiments\\model.h5": {
+                    "hash": "4007918a57851ab9b97917d8a02fd099",
+                    "size": 11701552,
+                    "nfiles": null,
+                    "use_cache": true,
+                    "is_data_source": true
+                }
+            },
+            "meta": {}
+        },
+        "error": null,
+        "experiments": null
+    }
+]
